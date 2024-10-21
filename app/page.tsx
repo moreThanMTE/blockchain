@@ -1,5 +1,13 @@
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+
 export default function Home() {
   return (
-    <div className="bg-black">sesed</div>
+    <>
+      <Header />
+      <div className="mx-auto w-10/12 flex flex-col">
+        <SideBar />
+      </div>
+    </>
   );
 }
